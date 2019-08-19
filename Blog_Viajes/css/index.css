@@ -1,0 +1,63 @@
+body{
+    background: url("../img/fondo.jpg") repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    overflow-x: hidden;
+}
+
+.encabezado{
+    margin-top: 10px;
+}
+
+.nav-wrapper{
+    background-color: white;
+    border-width: 0;
+}
+.chiip{
+  height: 15px;
+}
+
+.red-social-logo{
+    min-height: 48px;
+}
+.vivencia{
+  text-align: justify;
+}
+
+.red-social-logo:hover{
+    background: grey;
+}
+
+.boton-nav{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.eslogan{
+    color: #fff;
+}
+
+.logo{
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    .eslogan, .redes-sociales{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+    .boton-nav-texto{
+        display: none;
+    }
+}
+
+.opinion{
+    color: #FFF;
+}
+
+.hint-color{
+    color: #fff;
+}

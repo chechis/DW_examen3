@@ -1,0 +1,52 @@
+body{
+    background: url("../img/fondo.jpg") repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    overflow-x: hidden;
+}
+
+.container{
+    margin: 10px 10% 10px 10% !important;
+}
+
+.opcion-menu{
+    font-weight: 700;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+}
+
+.imagen-plato{
+    margin: 10px 10% 10px 10%;
+    width: 50%;
+    min-width: 200px;
+}
+
+.contenido{
+    margin-left: 20px;
+    background: white;
+    padding: 15px 10px 0 10px;
+}
+
+.barra-lateral{
+
+    background: white;
+    padding: 15px 10px 0 10px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 690px){
+    .barra-lateral{
+        display: none;
+    }
+}
+
+.favoritos{
+    width: 95%;
+    padding-left: 40px;
+}
+
+.historial{
+    margin-left: 10px;
+}
